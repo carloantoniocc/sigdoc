@@ -1,0 +1,134 @@
+/*** LOGIN VIEW ***/
+.background-login { 
+	 background: url('../image/bg.jpg') no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+
+.panel-login {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";       /* IE 8 */
+	filter: alpha(opacity=95);  /* IE 5-7 */
+	-moz-opacity: 0.95;          /* Netscape */
+	-khtml-opacity: 0.95;        /* Safari 1.x */
+	opacity: 0.95;  
+}
+/*** END LOGIN VIEW ***/ 
+
+/*** LOGO DTI ***/
+.logodti {
+  padding: 0px;
+}
+.logodti>img {
+  display:block;
+  margin:auto;
+  height: 190px;
+  width: auto;
+}
+/*** END LOGO DTI ***/
+
+/*** LOGO ***/
+
+/*** END LOGO ***/
+
+/**** MENU *****/
+.background-menu {
+	background-color: #233645;
+	border-color: #233645;
+}
+
+.btn-primary {
+	background-color: #1ab394;
+	border-color: #1ab394;
+	
+}
+
+.btn-primary:hover, 
+.btn-primary:active, 
+.btn-primary:active:focus {
+	background-color: #18a689;
+	border-color: #18a689;
+	
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #1ab394;
+	border-color: #1ab394;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus {
+    background-color: #18a689;
+	border-color: #18a689;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:focus {
+	background-color: #1ab394;
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+	background-color: #1ab394;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	background-color: #233645;
+}
+
+.dropdown-menu>li>a {
+	color: #ffffff;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:active,
+.dropdown-menu>li>a:focus {
+	background-color: #1ab394;
+	color: #ffffff;
+}
+
+@media (max-width: 767px) { 
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #ffffff;
+	}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:active,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+		background-color: #1ab394;
+		color: #ffffff;
+	}
+	
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+/*** END MENU ***/
+
+/*** CALENDARIO ***/
+#eventForm .form-control-feedback {
+    top: 0;
+    right: -15px;
+}
+/*** END CALENDARIO ***/
+
+/*** ROW ****/
+.row-border {
+	border-bottom: 1px solid; 
+	border-color:#D3E0E9;
+}
+
+.row-padding {
+	padding-bottom: 15px;
+}
+/*** ROW ***/
